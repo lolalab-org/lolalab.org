@@ -11,7 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: 'Georgia', serif;
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+    font-family: 'Inconsolata', monospace;
     padding: 40px;
 }
 
@@ -30,7 +31,7 @@ body {
 
 .text {
     font-size: 15px;
-    color: #FFE064;
+    color: #EABB04;
     line-height: 1.6;
 }
 
