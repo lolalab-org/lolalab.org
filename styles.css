@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: 'Georgia';
+    font-family: 'Georgia', serif;
     padding: 40px;
 }
 
