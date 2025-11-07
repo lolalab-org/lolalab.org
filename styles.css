@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffefe0; /* Cream background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Georgia';
+    padding: 40px;
+}
+
+.container {
+    text-align: center;
+    max-width: 100%;
+}
+
+/* Logo class for when actual logo image is added */
+.logo {
+    max-width: 640px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 14px;
+    }
+}
